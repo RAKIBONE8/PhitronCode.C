@@ -21,3 +21,22 @@ int main ()
     printf("%d",mod);
 }
 */
+
+//condition
+
+int main ()
+{
+    int rupee;
+    scanf("%d",&rupee);
+
+    if(rupee >= 100)
+    {
+        printf("Burger khabo");
+    }
+    else
+    {
+        printf("Khabona");
+    }
+
+    return 0;
+}
